@@ -1,0 +1,13 @@
+.comment_top {
+ display: flex;
+ align-items: center;
+ margin: 30px;
+padding: 0px 5px 10px 20px;
+}
+
+.comment_row1 {
+    margin: 5px 15px 5px 5px;
+    background: #eff2f5;
+    border-radius: 25px;
+    padding: 10px 25px 15px 20px;
+}

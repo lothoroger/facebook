@@ -1,0 +1,81 @@
+.messageSender_top {
+
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    background-color: white; 
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.messageSender_option > h3 {
+    color: gray;
+}
+.messageSender_row1 {
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+
+}
+
+.messageSender_row1 > button {
+    flex: 1;
+    display: flex;
+}
+
+.messageSender_row1 >  input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5; 
+}
+
+.messageSender_row1 >  button {
+    background-color: white;
+    display:contents;
+    cursor: pointer;
+}
+
+.messageSender_row1 >  input {
+    flex: 1;
+}
+
+
+.messageSender_row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.messageSender_option {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+
+
+
+.messageSender_option:hover {
+    background-color: #eff2f5;
+    border-radius: 20px;
+}
+
+.messageSender_option1 > a {
+    display: flex;
+}
+
+.messageSender_option1  {
+padding: 20px;
+align-items: center;
+margin: 5px 20px;
+
+}
+.messageSender_option1:hover {
+    background-color: #eff2f5;
+    border-radius: 20px;
+      cursor: pointer;
+}

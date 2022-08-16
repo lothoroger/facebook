@@ -1,0 +1,36 @@
+.post_row_3a {
+    display: flex;
+}
+
+
+.post_row5 {
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+
+}
+
+.post_row5 > form {
+    flex: 1;
+    display: flex;
+}
+
+.post_row5 > form > input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}
+
+.post_row5 > form > button {
+
+    display: none;
+
+}
+
+.post_row5 > form > input {
+    flex: 1;
+}
+
